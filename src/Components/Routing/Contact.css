@@ -1,0 +1,64 @@
+.co-container{
+    padding: 1.2rem 1rem;
+    height: auto;
+    margin: 10% 25%;
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 10px;
+    background-color: #f5f5f5f5;
+}
+.co-container h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.co-container form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .co-container{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.co-container input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.co-container label{
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none
+}
+.text-field{
+    padding-top: 2rem;
+}
+.btn{
+    padding: 12px 32px;
+    width: 100%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(112, 40, 220);
+    color: #000000;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .btn:hover{
+    background: rgb(7, 7, 7);
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  @media (max-width: 768px) {
+    .co-container{
+        margin: 10%;
+    }
+  }
